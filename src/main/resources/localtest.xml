@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SyngentaAutomation">
+	<listeners>
+	</listeners>
+
+	<test name="SyngentaAutomation">
+		<groups>
+			<run>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.syngenta.sylk.LeadProcess.LeadProcessWorkflowUsingAccessionNoTest" />
+			<class name="com.syngenta.sylk.GeneticFeatures.test.AddGeneticFeatureUsingAccessionNumberTest" />
+			<class name="com.syngenta.sylk.GeneticFeatures.test.AddGeneticFeatureUsingNucleotideTest" />
+			<class name="com.syngenta.sylk.GeneticFeatures.test.AddGeneticFeatureUsingProteinTest" />		
+			<class name="com.syngenta.sylk.extendtabbedui.CheckDifferentFieldsInConstructTabSequenceSection" />
+			<class name="com.syngenta.sylk.extendtabbedui.CheckEvidenceMagnifyingGlassVerticallyAlignedRNAi" />
+			<class name="com.syngenta.sylk.GeneticFeatures.test.AddGeneticFeatureUsingNewSequanceTest" />
+			
+		
+		</classes>
+	</test>
+</suite> 
